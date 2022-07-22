@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 20px;
+    color: white;
+    background-color: #141414;
+    text-decoration: none;
+    letter-spacing: .05rem;
+    }
+
+html{
+    scroll-behavior: smooth;    
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    padding: 5px 10%;
+    position: fixed;
+    width: 100%;
+    background-color: #141414;
+    }
+
+.nav-links li{
+    display: flex;
+    justify-content: space-between;
+    display: inline-flex;
+    align-items: center;
+}
+
+.header .nav-links li :hover{
+    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    cursor: pointer;
+    transition: all 0.3s;
+    color: brown;
+}
+
+.logoimg{
+    width: 11%;
+    transition: all 0.3s;
+}
+
+.header .logoimg:hover{
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+}
+
+.nav-links a{
+    font-size: 20;
+    color: white;
+    text-decoration: none;
+    padding: 9px 25px;
+    border: none;
+}
+
+main{
+    height: 100%;
+    padding-top: 200px;
+}
+
+
+----------------------------------------------------------------------
+h1, h2, h3, h4, h5, h6, a {
+    margin:0; 
+    padding:0;
+    background-color: inherit;
+    
+}
+.login {
+    margin:0 auto;
+    max-width:500px;
+}
+.login-header h1 {
+    color:#ffff;
+    text-align:center;
+    font-size: 3rem;
+}
+/* .login-header h1 {
+    text-shadow: 0px 5px 15px #000;
+}*/
+.login-form {
+    border:.5px solid #ffff;
+    background:#4facff;
+    border-radius:10px;
+    box-shadow:0px 0px 10px #000;
+}
+.login-form h3 {
+    text-align:left;
+    margin-left:40px;
+    color:#ffff;
+}
+.login-form {
+    box-sizing:border-box;
+    padding-top:15px;
+    padding-bottom:10%;
+    margin:5% auto;
+    text-align:center;
+}
+.login input[type="text"],
+
+.login input[type="password"] {
+    max-width:400px;
+    width: 80%;
+    line-height:3em;
+    font-family:'Bebas Neue';
+    margin:1em 2em;
+    border-radius:5px;
+    border:2px solid #f2f2f2;
+    outline:none;
+    padding-left:10px;
+}
+.login-form input[type="button"] {
+    height:30px;
+    width:100px;
+    background:#fff;
+    border:1px solid #f2f2f2;
+    border-radius:20px;
+    color: slategrey;
+    text-transform:uppercase;
+    font-family:'Bebas Neue';
+    cursor:pointer;
+}
+.sign-up{
+    color:#f2f2f2;
+    margin-left:-70%;
+    cursor:pointer;
+    text-decoration:underline;
+}
+.no-access {
+    color:#E86850;
+/*   margin:20px 0px 20px -57%;*/
+    text-decoration:underline;
+    cursor:pointer;
+}
+.try-again {
+    color:#f2f2f2;
+    text-decoration:underline;
+    cursor:pointer;
+}
+
+/*Media Querie*/
+@media only screen and (min-width : 150px) and (max-width : 530px){
+    .login-form h3 {
+    text-align:center;
+    margin:0;
+    }
+    .sign-up, .no-access {
+    margin:10px 0;
+    }
+    .login-button {
+    margin-bottom:10px;
+    }
+}
+
+.footer{
+    height:50px;
+    line-height:50px;
+    background: inherit;
+    color:white;
+    text-align:center;
+    position:inherit;
+    bottom:0;
+    left:0;
+    width:100%;
+    padding: 4%;
+}
