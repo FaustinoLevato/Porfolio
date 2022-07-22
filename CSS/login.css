@@ -1,5 +1,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
+@media  (max-width: 550px) {
+    .login{
+        width: 80%;
+    }
+}
+
+@media (max-width: 750px){
+    .services{
+        flex-direction: column;
+    }
+    .header{
+        flex-direction: column;
+    }
+
+}
+@media (max-width: 1685px){
+    .header{
+        justify-content: center;
+    }
+}
+
 *{
     box-sizing: border-box;
     margin: 0;
@@ -45,8 +66,13 @@ header{
     color: brown;
 }
 
+.logo{
+    width: 20%;
+    height: 70px;
+}
+
 .logoimg{
-    width: 11%;
+    height: 70px;
     transition: all 0.3s;
 }
 

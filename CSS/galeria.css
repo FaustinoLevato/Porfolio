@@ -1,5 +1,41 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
+@media (max-width:1200px) {
+    .h1{font-size: 2rem;
+    }
+    .texto{
+        font-size: 1rem;
+    }
+    .fila1{
+        height: 60%;
+        
+    }
+    .fila2{
+        height: 60%;
+    }
+    .fila3{
+        height: 60%;
+    }
+    .card{
+        height: 60%;
+    }
+
+}
+@media (max-width: 1000px){
+    .fila1{
+        height: 40%;
+    }
+    .fila2{
+        height: 40%;
+    }
+    .fila3{
+        height: 40%;
+    }
+    .card{
+        height: 40%;
+    }
+}
+
 @keyframes agrandar{
     from{
         transform: scale(1);
@@ -117,17 +153,14 @@ h1{
     margin-top: 4%;
     border-radius: 20px;
     box-shadow: 1px 1px 9px -1px rgb(187 187 187 / 75%);
-    -webkit-box-shadow: 1px 1px 9px -1px rgb(187 187 187 / 75%);
-    -moz-box-shadow: 1px 1px 9px -1px rgba(187,187,187,0.75);
     padding: 20px 10px;
-    min-width: 200px;
     text-align: center;
-    height: 20rem;
-    width: 15rem;
+    height: 40vh;
+    width: 25vh;
     background-color: white;
     display: flex;
     flex-direction: column;
-    justify-content:space-between;
+    justify-content: space-between;
 
 }
 
@@ -160,8 +193,12 @@ h1{
 
 }
 
-.precio{
+.texto{
     font-size: 2rem;
+}
+
+.precio{
+
     color: rgb(43, 43, 43);
     text-shadow:  2px 2px gray;
     background-color: transparent;
@@ -180,9 +217,6 @@ h1{
     padding-top: 70px;
 }*/
 
-.modelo{
-    font-size: 2rem;
-}
 
 .footer{
     height:50px;
